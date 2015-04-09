@@ -14,6 +14,14 @@ var fpq = require('functional-priority-queue')
 
 ```
 
+# Installation
+
+This module works in any node-flavored CommonJS environment, including [node.js](https://nodejs.org/), [iojs](https://iojs.org/en/index.html) and [browserify](http://browserify.org/).  You can install it using the [npm package manager](https://docs.npmjs.com/) with the following command:
+
+```
+npm i functional-priority-queue
+```
+
 # API
 
 ```javascript
