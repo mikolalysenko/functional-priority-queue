@@ -1,6 +1,10 @@
 functional-priority-queue
 =========================
-A [confluently](http://en.wikipedia.org/wiki/Persistent_data_structure#Confluently_persistent) [persistent](http://en.wikipedia.org/wiki/Persistent_data_structure) [functional](http://en.wikipedia.org/wiki/Purely_functional) [priority queue](http://en.wikipedia.org/wiki/Priority_queue).  This priority queue is implemented using a [pairing heap](http://en.wikipedia.org/wiki/Pairing_heap), though because it uses a functional interface does not support the decrease-key function (as locating a node within the heap is expensive).
+A [confluently](http://en.wikipedia.org/wiki/Persistent_data_structure#Confluently_persistent) [persistent](http://en.wikipedia.org/wiki/Persistent_data_structure) [functional](http://en.wikipedia.org/wiki/Purely_functional) [priority queue](http://en.wikipedia.org/wiki/Priority_queue).  
+
+#### Technical details
+
+This priority queue is implemented using a [pairing heap](http://en.wikipedia.org/wiki/Pairing_heap), though because it uses a pure functional interface it does not support the decrease-key function (as locating a node within the heap without maintaining cyclic pointers is expensive).
 
 # Example
 
